@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0.1%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #000, #098ba8);
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+}
+main {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.634);
+    width: 950px;
+    padding: 5px;
+    margin: auto;
+}
+ 
+header {
+     
+      padding: 0px;
+      flex-flow: row nowrap;
+      display: grid;
+      justify-content: space-around;
+      align-items: center;
+}
+
+nav {
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    width: 950px;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+li {
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+    font-family: 'orbitron', sans-serif;
+}
+
+li:hover {
+    color: #000;
+}
+
+
+.logo {
+    margin:auto;
+    width: 30%;
+    height: 150px;
+    padding: 30px;
+    display: block;
+    justify-content: center; 
+    border-radius: 10px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #098ba88d;  
+}
+
+
+p { 
+    margin: 0px;
+    padding: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+
+h1, h2 {
+    margin-bottom: 20px;
+    margin: 0px;
+    padding: 10px;
+    line-height: 1.2em;
+    text-align: center;
+    color: #fff;
+    
+}
+
+header, section.normal {
+    padding: 5px;
+}
+
+.media {
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin:auto;
+    width: 55%;
+    height: 200px;
+    padding: 0px;
+    display: block;
+    justify-content: center; 
+    border-radius: 10px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;  
+}
+
+.footer-2, p, h3 {
+    color: #fff;
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.play, span {
+    color: #fff;
+    width: 35%;
+    padding: 0px;
+    display: grid;
+    margin: auto;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+  
+}

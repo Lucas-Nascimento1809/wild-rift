@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+header {
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+    font-family: 'orbitron', sans-serif;
+}
+
+li:hover {
+    color: #04CDFB
+}
+
+#logo {
+    width: 130px;
+    height: auto;
+}
+
+
+.gallery-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.item1 {
+    background-image: url("./fotos/lux/Lux1.jpg");
+}
+
+.item2 {
+    background-image: url("./fotos/Seraphine/seraphine2.png");
+}
+
+
+.item3 {
+    background-image: url("./fotos/miss03.png");
+}
+
+
+.item4 {
+    background-image: url("./fotos/Brand/brand2.jpg");
+}
+
+
+.item5 {
+    background-image: url("./fotos/Morgana/Morgana2.jpg");
+}
+
+
+.item6 {
+    background-image: url("./fotos/Syndra/syndra2.webp");
+}
+
+
+.item7 {
+    background-image: url("./fotos/Orianna/orianna1.webp");
+}
+
+
+.item8 {
+    background-image: url("./fotos/Ornn/ornn.3.webp");
+}
+
+.item9 {
+    background-image: url("./fotos/arena.jpeg");
+}
+
+.item10 {
+    background-image: url("./fotos/aram2.png");
+}
+.foto {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 70% 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10 10 20px 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "kdam thmor pro", sans-serif;
+    box-shadow: #04CDFB 0px 5px 15px;
+}
+
+.foto:hover {
+    transform: scale(1.02);
+}
+
+.footer-2, p, h1, h3, h2 {
+    color: #fff;
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+    margin: auto;
+    justify-content: center;
+}
+
+.play, span{
+    color: #fff;
+    width: 30%;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+}
